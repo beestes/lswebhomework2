@@ -85,6 +85,11 @@
 	color: black;
 }
 
+.story a:visited {
+    text-decoration: underline;
+	color: black;
+}
+
 .story a:hover {
 	color: lightblue;
 }
@@ -92,4 +97,15 @@
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.footer {
+    padding: 40px 0 20px 0;
+	text-align: center;
+	font-family: "Georgia", Times, serif;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FAFAFA, #FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FAFAFA, #FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FAFAFA, #FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FAFAFA, #FFF); /* Standard syntax */
 }
